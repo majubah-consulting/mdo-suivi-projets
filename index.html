@@ -1139,10 +1139,6 @@
                 // Le listener onSnapshot va automatiquement recharger
                 setTimeout(() => setLoading(false), 500);
             };
-                }
-                
-                setLoading(false);
-            };
 
             const loadStudentData = async (studentId) => {
                 const firebaseData = await loadFromFirebase(studentId);
